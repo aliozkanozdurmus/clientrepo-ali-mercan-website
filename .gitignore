@@ -1,0 +1,21 @@
+node_modules
+.next
+.env.local
+.env.development
+.env.production
+.env.test
+*.log
+!.gitkeep
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa
+id_rsa.pub
